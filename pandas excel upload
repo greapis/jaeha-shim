@@ -1,0 +1,10 @@
+import pandas as pd
+import numpy as np
+
+from google.colab import files
+file_upload = files.upload()
+
+# dataset download
+
+wb = pd.read_excel('dividend_aristocrats_sample.xlsx')
+print(wb)
